@@ -9,8 +9,8 @@ import notes from '../notes';
 export default function App() {
     return (
     <div>
-        <Header />,
-        {notes.map((noteItem) => 
+        <Header />
+        {notes.map(noteItem => 
             <Note
             key = {noteItem.key}
             title = {noteItem.title}
